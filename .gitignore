@@ -25,4 +25,5 @@
 .DS_Store
 *.swp
 JLinkLog.txt
+*.bin
 

@@ -33,3 +33,8 @@ CIRCUMSTANCES, BE LIABLE FOR SPECIAL, INCIDENTAL, OR CONSEQUENTIAL
 DAMAGES, FOR ANY REASON WHATSOEVER.
 
 This is part of revision 10636 of the RDK-S2E Firmware Package.
+
+--------------------------------------------------------------------------------
+Note: ser2enet.axf must be flash at 0x0 can works now, since bootloader not works now
+How to config this.
+Options for Target 'ser2enet' -> 'Linker' -> 'Use Memory Layout from Target Dialog'

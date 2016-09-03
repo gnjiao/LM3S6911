@@ -83,66 +83,66 @@ __heap_limit
 ;******************************************************************************
         EXPORT  __Vectors
 __Vectors
-        DCD     StackMem + Stack            ; Top of Stack
-        DCD     Reset_Handler               ; Reset Handler
-        DCD     NmiSR                       ; NMI Handler
-        DCD     FaultISR                    ; Hard Fault Handler
-        DCD     IntDefaultHandler           ; MPU Fault Handler
-        DCD     IntDefaultHandler           ; Bus Fault Handler
-        DCD     IntDefaultHandler           ; Usage Fault Handler
-        DCD     0                           ; Reserved
-        DCD     0                           ; Reserved
-        DCD     0                           ; Reserved
-        DCD     0                           ; Reserved
-        DCD     IntDefaultHandler           ; SVCall Handler
-        DCD     IntDefaultHandler           ; Debug Monitor Handler
-        DCD     0                           ; Reserved
-        DCD     IntDefaultHandler           ; PendSV Handler
-        DCD     IntDefaultHandler           ; SysTick Handler
-        DCD     IntDefaultHandler           ; GPIO Port A
-        DCD     IntDefaultHandler           ; GPIO Port B
-        DCD     IntDefaultHandler           ; GPIO Port C
-        DCD     IntDefaultHandler           ; GPIO Port D
-        DCD     IntDefaultHandler           ; GPIO Port E
-        DCD     IntDefaultHandler           ; UART0
-        DCD     IntDefaultHandler           ; UART1
-        DCD     IntDefaultHandler           ; SSI
-        DCD     IntDefaultHandler           ; I2C
-        DCD     IntDefaultHandler           ; PWM Fault
-        DCD     IntDefaultHandler           ; PWM Generator 0
-        DCD     IntDefaultHandler           ; PWM Generator 1
-        DCD     IntDefaultHandler           ; PWM Generator 2
-        DCD     IntDefaultHandler           ; Quadrature Encoder
-        DCD     IntDefaultHandler           ; ADC Sequence 0
-        DCD     IntDefaultHandler           ; ADC Sequence 1
-        DCD     IntDefaultHandler           ; ADC Sequence 2
-        DCD     IntDefaultHandler           ; ADC Sequence 3
-        DCD     IntDefaultHandler           ; Watchdog
-        DCD     IntDefaultHandler           ; Timer 0A
-        DCD     IntDefaultHandler           ; Timer 0B
-        DCD     IntDefaultHandler           ; Timer 1A
-        DCD     IntDefaultHandler           ; Timer 1B
-        DCD     IntDefaultHandler           ; Timer 2A
-        DCD     IntDefaultHandler           ; Timer 2B
-        DCD     IntDefaultHandler           ; Comp 0
-        DCD     IntDefaultHandler           ; Comp 1
-        DCD     IntDefaultHandler           ; Comp 2
-        DCD     IntDefaultHandler           ; System Control
-        DCD     IntDefaultHandler           ; Flash Control
-        DCD     IntDefaultHandler           ; GPIO Port F
-        DCD     IntDefaultHandler           ; GPIO Port G
-        DCD     IntDefaultHandler           ; GPIO Port H
-        DCD     IntDefaultHandler           ; UART2 Rx and Tx
-        DCD     IntDefaultHandler           ; SSI1 Rx and Tx
-        DCD     IntDefaultHandler           ; Timer 3 subtimer A
-        DCD     IntDefaultHandler           ; Timer 3 subtimer B
-        DCD     IntDefaultHandler           ; I2C1 Master and Slave
-        DCD     IntDefaultHandler           ; Quadrature Encoder 1
-        DCD     IntDefaultHandler           ; CAN0
-        DCD     IntDefaultHandler           ; CAN1
-        DCD     0                           ; Reserved
-        DCD     IntDefaultHandler           ; Ethernet
-        DCD     IntDefaultHandler           ; Hibernate
+        DCD     StackMem + Stack            ;0 Top of Stack
+        DCD     Reset_Handler               ;1 Reset Handler
+        DCD     NmiSR                       ;2 NMI Handler
+        DCD     FaultISR                    ;3 Hard Fault Handler
+        DCD     IntDefaultHandler           ;4 MPU Fault Handler
+        DCD     IntDefaultHandler           ;5 Bus Fault Handler
+        DCD     IntDefaultHandler           ;6 Usage Fault Handler
+        DCD     0                           ;7 Reserved
+        DCD     0                           ;8 Reserved
+        DCD     0                           ;9 Reserved
+        DCD     0                           ;10 Reserved
+        DCD     IntDefaultHandler           ;11 SVCall Handler
+        DCD     IntDefaultHandler           ;12 Debug Monitor Handler
+        DCD     0                           ;13 Reserved
+        DCD     IntDefaultHandler           ;14 PendSV Handler
+        DCD     IntDefaultHandler           ;15 SysTick Handler
+        DCD     IntDefaultHandler           ;0 GPIO Port A
+        DCD     IntDefaultHandler           ;1 GPIO Port B
+        DCD     IntDefaultHandler           ;2 GPIO Port C
+        DCD     IntDefaultHandler           ;3 GPIO Port D
+        DCD     IntDefaultHandler           ;4 GPIO Port E
+        DCD     IntDefaultHandler           ;5 UART0
+        DCD     IntDefaultHandler           ;6 UART1
+        DCD     IntDefaultHandler           ;7 SSI
+        DCD     IntDefaultHandler           ;8 I2C
+        DCD     IntDefaultHandler           ;9 PWM Fault
+        DCD     IntDefaultHandler           ;10 PWM Generator 0
+        DCD     IntDefaultHandler           ;11 PWM Generator 1
+        DCD     IntDefaultHandler           ;12 PWM Generator 2
+        DCD     IntDefaultHandler           ;13 Quadrature Encoder
+        DCD     IntDefaultHandler           ;14 ADC Sequence 0
+        DCD     IntDefaultHandler           ;15 ADC Sequence 1
+        DCD     IntDefaultHandler           ;16 ADC Sequence 2
+        DCD     IntDefaultHandler           ;17 ADC Sequence 3
+        DCD     IntDefaultHandler           ;18 Watchdog
+        DCD     IntDefaultHandler           ;19 Timer 0A
+        DCD     IntDefaultHandler           ;20 Timer 0B
+        DCD     IntDefaultHandler           ;21 Timer 1A
+        DCD     IntDefaultHandler           ;22 Timer 1B
+        DCD     IntDefaultHandler           ;23 Timer 2A
+        DCD     IntDefaultHandler           ;24 Timer 2B
+        DCD     IntDefaultHandler           ;25 Comp 0
+        DCD     IntDefaultHandler           ;26 Comp 1
+        DCD     IntDefaultHandler           ;27 Comp 2
+        DCD     IntDefaultHandler           ;28 System Control
+        DCD     IntDefaultHandler           ;29 Flash Control
+        DCD     IntDefaultHandler           ;30 GPIO Port F
+        DCD     IntDefaultHandler           ;31 GPIO Port G
+        DCD     IntDefaultHandler           ;32 GPIO Port H
+        DCD     IntDefaultHandler           ;33 UART2 Rx and Tx
+        DCD     IntDefaultHandler           ;34 SSI1 Rx and Tx
+        DCD     IntDefaultHandler           ;35 Timer 3 subtimer A
+        DCD     IntDefaultHandler           ;36 Timer 3 subtimer B
+        DCD     IntDefaultHandler           ;37 I2C1 Master and Slave
+        DCD     IntDefaultHandler           ;38 Quadrature Encoder 1
+        DCD     IntDefaultHandler           ;39 CAN0
+        DCD     IntDefaultHandler           ;40 CAN1
+        DCD     0                           ;41 Reserved
+        DCD     IntDefaultHandler           ;42 Ethernet
+        DCD     IntDefaultHandler           ;43 Hibernate
 
 ;******************************************************************************
 ;
